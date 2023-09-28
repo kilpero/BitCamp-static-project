@@ -1,0 +1,58 @@
+header {
+  margin-top: 24px;
+  max-width: 2000px;
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  
+}
+
+.title-logo {
+  border-radius: 6px;
+}
+
+.header-shortcuts {
+  display: grid;
+  grid-template-columns: 35px 110px 120px 80px 80px 80px;
+  align-items:center;
+}
+
+.header-div:hover {
+  color: rgba(218, 224, 231, 0.79);
+} 
+
+.header-button:hover {
+  background-color: rgb(12, 19, 34);
+}
+
+.bitcamp-logo {
+  width: 29px; 
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.bitcamp {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header-div {
+  color: rgb(174 178 183 / 79%);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.header-button {
+  background-color: rgb(15, 23, 42);
+  color: white;
+  border: 0;
+  padding: 8px 13px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}

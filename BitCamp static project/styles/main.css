@@ -1,0 +1,411 @@
+
+
+@media (min-width:640px) and (max-width:870px) {
+  .programs {
+    display: grid;
+    grid-template-columns: 310px 310px;
+    row-gap: 17px;
+    column-gap: 17px;
+    justify-content: space-evenly;
+    max-width: 800px;
+   
+  }
+  
+}
+
+@media (min-width:871px) {
+  .programs {
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    row-gap: 17px;
+    column-gap: 17px;
+    justify-content: space-evenly;
+    max-width: 800px;
+   
+  }
+}
+
+body {
+  height: 1800px;
+  background-color: rgb(3, 7, 17) ;
+  position: relative;
+}
+
+p,
+div {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.main-body-title {
+  text-align: center;
+}
+
+.body-title {
+  font-size: 62px;
+}
+
+.body-title-paragraph {
+  font-size: 20px;
+  color: #7f8ea3;
+}
+
+
+.contact {
+  border: 2px solid blue;
+}
+
+.react-div {
+  border: 1px solid rgb(15, 46, 58);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+
+}
+
+.react-img {
+  width: 110px;
+}
+
+.node-img {
+  width: 100px;
+}
+
+.react-img-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pro-div-info,
+.node-div-info,
+.kids-div-info,
+.react-div-info,
+.python-div-info,
+.vue-div-info {
+padding: 15px 30px;
+}
+
+.react-div-info,
+.python-div-info,
+.pro-div-info,
+.vue-div-info {
+  height: 100%;
+}
+
+
+.react-div-title {
+  font-weight: 700 ;
+  margin-bottom: 10px;
+  
+}
+
+strong {
+  border: 0.1px solid lightblue;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+.react-div-p {
+  margin-top: 0px;
+  font-size: 15px;
+  color: rgb(105, 131, 141);
+  text-align: left;
+}
+
+.react-studying {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 3fr;
+  row-gap: 3px;
+  column-gap: 5px;
+  margin-top: 25px;
+}
+
+
+.Python-studying {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 70px 70px 50px;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
+.Python-studying-2 {
+  padding-left: 14px;
+  padding-top: 2px;
+}
+
+.python-studying-4 {
+  padding: 3px 6px;
+}
+
+.python-studying-5 {
+  padding-left: 30px;
+
+}
+
+.react-studying-1,
+.react-studying-2,
+.react-studying-3,
+.react-studying-4,
+.react-studying-5,
+.react-studying-6,
+.Python-studying-2,
+.python-studying-4,
+.python-studying-5,
+.pro-studying-2,
+.pro-studying-3,
+.pro-studying-6,
+.vue-studying-1,
+.vue-studying-2,
+.vue-studying-4,
+.vue-studying-5,
+.node-studying-1,
+.kids-studying-2,
+.kids-studying-3,
+.kids-studying-4 {
+  background-color: rgb(15, 23, 42);
+  border-radius: 10px;
+  font-size: 13.3px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-studying-1:hover,
+.react-studying-2:hover,
+.react-studying-3:hover,
+.react-studying-4:hover,
+.react-studying-5:hover {
+  background-color: rgb(12, 18, 31);
+}
+
+.react-studying-1 {
+  padding: 2px 14px;
+  padding-bottom: 3px;
+  
+}
+
+.react-studying-2 {
+  padding: 2px 25px; 
+}
+
+.react-studying-3 {
+  padding: 2px 18px;
+  padding-bottom: 4px;
+}
+
+.react-studying-4 {
+  padding: 2px 23px;
+  padding-bottom: 3px; 
+}
+
+.react-studying-5 {
+  padding: 2px 13px;
+  padding-bottom: 3px;
+}
+
+.pro-studying {
+  display: grid;
+  grid-template-columns: 90px 70px 80px;
+  row-gap: 5px;
+  column-gap: 10px;
+  margin-top: 25px;
+}
+
+.pro-studying-2 {
+  padding-left: 30px;
+  padding-top: 2px;
+}
+
+.pro-studying-3 {
+  padding-left: 9px;
+  padding-top: 2px;
+}
+
+.pro-studying-6 {
+  padding-left: 35px;
+}
+
+.vue-studying {
+  display: grid;
+  grid-template-columns: 90px 60px 60px;
+  row-gap: 5px;
+  column-gap: 10px;
+  margin-top: 25px;
+}
+
+.vue-studying-1 {
+   padding-left: 41px;
+   padding-top: 2px;
+}
+
+.vue-studying-2 {
+  padding-left: 13px;
+  padding-top: 2px;
+}
+
+.vue-studying-4 {
+  padding-left: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.vue-studying-5 {
+   padding-left: 19px;
+   padding-top: 4px;
+}
+
+.node-studying {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  row-gap: 5px;
+  column-gap: 10px;
+  margin-top: 25px;
+}
+
+.node-studying-1 {
+  padding-left: 27px;
+}
+
+.kids-studying {
+  display: grid;
+  grid-template-columns: 140px 90px;
+  row-gap: 5px;
+  column-gap: 10px;
+  margin-top: 25px;
+}
+
+.kids-studying-2 {
+  padding-left: 14px;
+  padding-top: 9px;
+}
+
+.kids-studying-3 {
+  padding-left: 54px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+
+.kids-studying-4 {
+  padding-left: 33px;
+  padding-top: 3px;
+}
+
+.more-information,
+.more-information-react,
+.more-information-vue,
+.more-information-python,
+.more-information-pro {
+  color: black;
+  background-color: white;
+  height: 43px;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 0;
+  margin-top: 25px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.more-information-react {
+  margin-top: 63px;
+}
+
+.more-information-vue {
+  margin-top: 76px;
+}
+
+.more-information-python {
+  margin-top: 70px;
+}
+
+.more-information-pro {
+  margin-top: 70px;
+}
+
+.rocket-img {
+  width: 80px;
+}
+
+.end-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end-main p {
+  color: rgb(119 148 183 / 79%);
+  font-size: 19px;
+  margin-bottom: 0px;
+}
+
+.end-main .head {
+  font-size: 58px;
+  color: white;
+  margin-top: 150px;
+}
+
+.end-main .contact {
+  border: 0;
+  margin-top: 33px;
+}
+
+.end-main strong {
+  border: 0;
+  font-size: 19px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-left: 230px;
+}
+
+.bitcamp-logo-2 {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.main-bottom-div-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-bottom div {
+  font-size: 14px;
+}
+
+.main-bottom button {
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 17px;
+  width: 65px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
